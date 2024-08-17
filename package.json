@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run --spec cypress/e2e/*.cy.js --headed --browser chrome"
+    "build": "cypress run --spec cypress/e2e/*.cy.js --headed --browser chrome"
 
   },
 
