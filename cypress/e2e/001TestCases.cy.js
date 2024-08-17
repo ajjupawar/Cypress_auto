@@ -15,10 +15,6 @@ describe('Launches the urls', () => {
     cy.visit('https://www.google.com')
     cy.log("Launched url4") 
   })
-  it('TestCase05', () => {
-    cy.visit('https://www.google.com')
-    cy.log("Launched url5") 
-  })
 
 
 })
