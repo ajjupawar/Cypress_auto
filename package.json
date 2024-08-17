@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cypress run --spec cypress/e2e/*.cy.js --headed --browser chrome"
+
   },
+
   "keywords": [],
-  "author": "",
+  "author": "Ajinkya Pawar",
   "license": "ISC",
   "description": "",
   "devDependencies": {
